@@ -1,5 +1,5 @@
 🌱 Crop Recommendation System
-Hi, I'm Abhimanyu Singh! 👋 I am a 2nd-year Information Technology student at MBMU. I am passionate about building data-driven solutions and exploring the practical applications of Machine Learning in real-world scenarios. 🔗 Connect with me on LinkedIn: 
+Hi, I'm Abhimanyu Singh! 👋 I am a 2nd-year Information Technology student at MBMU. I am passionate about building data-driven solutions and exploring the practical applications of Machine Learning in real-world scenarios. 🔗 Connect with me on LinkedIn: https://www.linkedin.com/in/abhimanyu-singh-rajpurohit77
 
 
 🚀 Project Overview
@@ -45,11 +45,19 @@ Model Serialization: joblib
 📦 Crop-Recommendation-System
 
  ┣ 📜 data_processing.py   # Cleans data and prepares Features (X) & Target (y)
+ 
  ┣ 📜 train_model.py       # Trains the ML model and saves it
+ 
  ┣ 📜 predict.py           # Loads the saved model and makes predictions
+ 
  ┣ 📜 main.py              # Main interactive script for user input
+ 
  ┣ 📜 CropData.csv         # The dataset used for training
+ 
  ┣ 📜 requirements.txt     # Python dependencies
+ 
  ┗ 📂 model
+ 
    ┗ 📜 model.pkl          # Saved Random Forest model (generated after training)
+   
 
