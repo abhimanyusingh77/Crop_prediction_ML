@@ -12,19 +12,19 @@ The Crop Recommendation System is a Machine Learning project designed to help fa
 The model takes 7 key environmental and soil parameters as input:
 
 
-Nitrogen (N) - Ratio of Nitrogen content in soil
+1.Nitrogen (N) - Ratio of Nitrogen content in soil
 
-Phosphorus (P) - Ratio of Phosphorus content in soil
+2.Phosphorus (P) - Ratio of Phosphorus content in soil
 
-Potassium (K) - Ratio of Potassium content in soil
+3.Potassium (K) - Ratio of Potassium content in soil
 
-Temperature - Temperature in degrees Celsius
+4.Temperature - Temperature in degrees Celsius
 
-Humidity - Relative humidity in percentage
+5.Humidity - Relative humidity in percentage
 
-pH - Soil pH value (0-14)
+6.pH - Soil pH value (0-14)
 
-Rainfall - Rainfall in mm
+7.Rainfall - Rainfall in mm
 
 Based on these inputs, the Random Forest Classifier predicts the best crop (e.g., Rice, Maize, Coffee, Apple, Mango, etc.) out of 22 different categories.
 
