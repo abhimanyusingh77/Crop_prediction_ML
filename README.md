@@ -1,2 +1,35 @@
-# Crop_prediction_ML
-Road accident prediction using ml and python libraries.
+🌱 Crop Recommendation System
+Hi, I'm Abhimanyu Singh! 👋 I am a 2nd-year Information Technology student at MBMU. I am passionate about building data-driven solutions and exploring the practical applications of Machine Learning in real-world scenarios. 🔗 Connect with me on LinkedIn: 
+
+🚀 Project Overview
+The Crop Recommendation System is a Machine Learning project designed to help farmers and agriculture enthusiasts make informed decisions. By analyzing soil nutrients and weather conditions, this AI model predicts the most suitable crop to plant for maximum yield and profitability.
+
+✨ Features
+The model takes 7 key environmental and soil parameters as input:
+
+Nitrogen (N) - Ratio of Nitrogen content in soil
+Phosphorus (P) - Ratio of Phosphorus content in soil
+Potassium (K) - Ratio of Potassium content in soil
+Temperature - Temperature in degrees Celsius
+Humidity - Relative humidity in percentage
+pH - Soil pH value (0-14)
+Rainfall - Rainfall in mm
+Based on these inputs, the Random Forest Classifier predicts the best crop (e.g., Rice, Maize, Coffee, Apple, Mango, etc.) out of 22 different categories.
+
+🛠️ Tech Stack Used
+Programming Language: Python 3.x
+Data Manipulation & Analysis: pandas, numpy
+Machine Learning Algorithm: scikit-learn (Random Forest Classifier)
+Model Serialization: joblib
+-## 📂 Project Structure
+
+📦 Crop-Recommendation-System
+ ┣ 📜 data_processing.py   # Cleans data and prepares Features (X) & Target (y)
+ ┣ 📜 train_model.py       # Trains the ML model and saves it
+ ┣ 📜 predict.py           # Loads the saved model and makes predictions
+ ┣ 📜 main.py              # Main interactive script for user input
+ ┣ 📜 CropData.csv         # The dataset used for training
+ ┣ 📜 requirements.txt     # Python dependencies
+ ┗ 📂 model
+   ┗ 📜 model.pkl          # Saved Random Forest model (generated after training)
+
